@@ -8,28 +8,11 @@
 /* nav elements  */
 .nav-header{
     display: flex;
-    justify-content: space-between;
-    margin:20px 80px;
+    justify-content:space-between;
+    margin:20px 70px;
     font-family:"azeret mono";
-    
 }
-.banner-header{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    max-width: 852px;
-    padding: 10px 10px;
-    margin-top: 15px;
-}
-.banner-description{
-    display: flex;
-    justify-content: center;
-    font-family: "azeret mono";
-    text-align: center;
-    margin-bottom: 50px;
-    width: 70%;
-}
-.header-button button{
+.nav-header-button{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -40,13 +23,38 @@
     padding: 10px 10px;
     margin-top: 15px;
     font-family: "azeret mono";
-    
-/* header section  */
 }
+/* header section  */
 
 .banner-avatar img{
     width: 100px;
     margin-top: 15px;
+    margin-bottom: 10px;
+}
+.banner-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 852px;
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+.banner-description{
+    display: flex;
+    justify-content: center;
+    font-family: "azeret mono";
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 5px 5px;
+    width: 70%;
+}
+.header-heading p{
+    max-width: 852px;
+    margin-top: 5px;
+    font-family: "azeret mono";
+    padding: 70px;
+    text-align: center;
+    font-size: 16px;
 }
 .contact-button button{
     padding: 10px;
@@ -56,25 +64,21 @@
     color: white;
     border: 2px solid black;
     border-radius: 5px;
+    cursor: pointer;
     text-align: center;
-}
-.header-heading p{
-    max-width: 852px;
-    font-family: "azeret mono";
-    padding: 70px;
-    text-align: center;
-    font-size: 16px;
-    
 }
 
 .header-heading{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
     align-items: center;
     background-image: url('../assets/Hero-bg.png');
-    background-size: 60%;
+    background-repeat:no-repeat;
+    background-position: center;
     margin-bottom: 80px;
+    
     
 }
 /* Main body section */
@@ -85,7 +89,6 @@
     padding: 40px;
     margin: 0 auto;
     margin-bottom: 80px;
-
 }
 
 .main-header{
@@ -96,8 +99,6 @@
     max-width: 946px;
     width: 852px;
     margin: 0 auto;
-    
-
 }
 .main-description{
     font-family: "azeret mono";
@@ -126,7 +127,7 @@
 }
 .section1-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -136,7 +137,7 @@
 .development-button button{
     padding: 10px 20px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 20px;
     text-align: center;
 }
@@ -151,13 +152,13 @@
 
 .section2-text h1{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 24px;
     text-align: left;
 }
 .section2-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 16px;
     text-align: left;
 }
@@ -171,13 +172,13 @@
 }
 .section3-text h1{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 24px;
     text-align: left;
 }
 .section3-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 16px;
     text-align: left;
 }
@@ -196,13 +197,13 @@
 }
 .inspiration-text h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 32px;
     text-align: center;
 }
 .inspiration-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 16px;
     text-align: center;
 }
@@ -227,14 +228,14 @@
 }
 .target h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 32px;
     text-align: center;
     
 }
 .target p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 16px;
     text-align: center;
     max-width: 852px;
@@ -267,57 +268,57 @@
 }
 .target-sec1-text h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 22px;
     text-align: left;
 }
 .target-sec1-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 15px;
     text-align: left;
 }
 .target-sec1-text a{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 15px;
     text-align: left;
     
 }
 .target-sec2-text h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 22px;
     text-align: left;
 }
 .target-sec2-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 15px;
     text-align: left;
 }
 .target-sec2-text a{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 15px;
     text-align: left;
     
 }
 .target-sec3-text h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 22px;
     text-align: left;
 }
 .target-sec3-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 15px;
     text-align: left;
 }
 .target-sec3-text a{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 15px;
     text-align: left;
 }
@@ -345,31 +346,36 @@
 }
 .support-text h1{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     font-size: 30px;
     text-align: center;
 }
 .support-text p{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+    font-family: "azeret mono";
     text-align: center;
     font-size: 15px;
-    
+
+}
+.submit-btn{
+    cursor: pointer;
 }
 .support-footer{
     text-align: center;
+    
+    
 }
 .support-footer input{
     height:40px;
     width:430px;
-    
     border-radius: 6px;
     font-size: 15px;
+    
 }
 .support-footer button{
     color: black;
     background-color: #FFFFFF;
-    font-family: azeret mono;
+    font-family: "azeret mono";
     padding: 12px 20px;
     border-radius: 5px;
     font-size: 15px;
